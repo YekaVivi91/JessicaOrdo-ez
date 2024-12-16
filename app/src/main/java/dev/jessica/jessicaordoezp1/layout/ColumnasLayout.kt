@@ -29,7 +29,7 @@ fun Columnas() {
                 text = "PAO 6",
                 )
             Text(
-                text = "Jessica Ordoñez",
+                text = "Jessica Ordoniez",
             )
 
     }
