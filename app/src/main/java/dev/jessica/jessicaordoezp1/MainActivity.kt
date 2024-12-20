@@ -14,7 +14,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import dev.jessica.jessicaordoezp1.layout.Box_Layout
 import dev.jessica.jessicaordoezp1.layout.Columnas
+import dev.jessica.jessicaordoezp1.layout.SaludoRow1
+import dev.jessica.jessicaordoezp1.layout.ScaffoldLayout
 import dev.jessica.jessicaordoezp1.ui.theme.JessicaOrdoñezP1Theme
 
 class MainActivity : ComponentActivity() {
@@ -22,7 +25,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            Columnas()
+
+            Box_Layout()
 
         }
     }
